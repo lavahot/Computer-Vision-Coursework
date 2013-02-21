@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBAD5E616D0542D00B241E7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEBAD5E516D0542D00B241E7 /* main.cpp */; };
+		CEBAD5E816D0542D00B241E7 /* CS486___HW1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEBAD5E716D0542D00B241E7 /* CS486___HW1.1 */; };
+		CEBAD5F716D0653D00B241E7 /* Gauss_masks.c in Sources */ = {isa = PBXBuildFile; fileRef = CEBAD5EE16D0653D00B241E7 /* Gauss_masks.c */; };
+		CEBAD5FC16D0653D00B241E7 /* ReadImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEBAD5F516D0653D00B241E7 /* ReadImage.cpp */; };
+		CEBAD5FD16D0653D00B241E7 /* WriteImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEBAD5F616D0653D00B241E7 /* WriteImage.cpp */; };
+		CEF2BD2216D1D23B0018A108 /* Gauss2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF2BD2016D1D23B0018A108 /* Gauss2D.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEBAD5E016D0542D00B241E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CEBAD5E816D0542D00B241E7 /* CS486___HW1.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEBAD5E216D0542D00B241E7 /* CS486 - HW1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS486 - HW1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBAD5E516D0542D00B241E7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CEBAD5E716D0542D00B241E7 /* CS486___HW1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "CS486___HW1.1"; sourceTree = "<group>"; };
+		CEBAD5EE16D0653D00B241E7 /* Gauss_masks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Gauss_masks.c; sourceTree = "<group>"; };
+		CEBAD5F516D0653D00B241E7 /* ReadImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReadImage.cpp; sourceTree = "<group>"; };
+		CEBAD5F616D0653D00B241E7 /* WriteImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WriteImage.cpp; sourceTree = "<group>"; };
+		CEF2BD2016D1D23B0018A108 /* Gauss2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gauss2D.cpp; sourceTree = "<group>"; };
+		CEF2BD2116D1D23B0018A108 /* Gauss2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gauss2D.h; sourceTree = "<group>"; };
+		CEF2BD2316D2018B0018A108 /* Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBAD5DF16D0542D00B241E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBAD5D916D0542D00B241E7 = {
+			isa = PBXGroup;
+			children = (
+				CEBAD5E416D0542D00B241E7 /* CS486 - HW1 */,
+				CEBAD5E316D0542D00B241E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBAD5E316D0542D00B241E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBAD5E216D0542D00B241E7 /* CS486 - HW1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBAD5E416D0542D00B241E7 /* CS486 - HW1 */ = {
+			isa = PBXGroup;
+			children = (
+				CEBAD5EE16D0653D00B241E7 /* Gauss_masks.c */,
+				CEBAD5F516D0653D00B241E7 /* ReadImage.cpp */,
+				CEBAD5F616D0653D00B241E7 /* WriteImage.cpp */,
+				CEBAD5E516D0542D00B241E7 /* main.cpp */,
+				CEBAD5E716D0542D00B241E7 /* CS486___HW1.1 */,
+				CEF2BD2016D1D23B0018A108 /* Gauss2D.cpp */,
+				CEF2BD2116D1D23B0018A108 /* Gauss2D.h */,
+				CEF2BD2316D2018B0018A108 /* Image.h */,
+			);
+			path = "CS486 - HW1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBAD5E116D0542D00B241E7 /* CS486 - HW1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBAD5EB16D0542D00B241E7 /* Build configuration list for PBXNativeTarget "CS486 - HW1" */;
+			buildPhases = (
+				CEBAD5DE16D0542D00B241E7 /* Sources */,
+				CEBAD5DF16D0542D00B241E7 /* Frameworks */,
+				CEBAD5E016D0542D00B241E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CS486 - HW1";
+			productName = "CS486 - HW1";
+			productReference = CEBAD5E216D0542D00B241E7 /* CS486 - HW1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBAD5DA16D0542D00B241E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Taylor Mansfield";
+			};
+			buildConfigurationList = CEBAD5DD16D0542D00B241E7 /* Build configuration list for PBXProject "CS486 - HW1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEBAD5D916D0542D00B241E7;
+			productRefGroup = CEBAD5E316D0542D00B241E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBAD5E116D0542D00B241E7 /* CS486 - HW1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBAD5DE16D0542D00B241E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBAD5E616D0542D00B241E7 /* main.cpp in Sources */,
+				CEBAD5F716D0653D00B241E7 /* Gauss_masks.c in Sources */,
+				CEBAD5FC16D0653D00B241E7 /* ReadImage.cpp in Sources */,
+				CEBAD5FD16D0653D00B241E7 /* WriteImage.cpp in Sources */,
+				CEF2BD2216D1D23B0018A108 /* Gauss2D.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEBAD5E916D0542D00B241E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEBAD5EA16D0542D00B241E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEBAD5EC16D0542D00B241E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEBAD5ED16D0542D00B241E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBAD5DD16D0542D00B241E7 /* Build configuration list for PBXProject "CS486 - HW1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBAD5E916D0542D00B241E7 /* Debug */,
+				CEBAD5EA16D0542D00B241E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBAD5EB16D0542D00B241E7 /* Build configuration list for PBXNativeTarget "CS486 - HW1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBAD5EC16D0542D00B241E7 /* Debug */,
+				CEBAD5ED16D0542D00B241E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBAD5DA16D0542D00B241E7 /* Project object */;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Gauss2D::smooth():Gauss2D.h">
+         <PersistentStrings>
+            <PersistentString
+               value = "GIMG[3]">
+            </PersistentString>
+            <PersistentString
+               value = "(*H)[i][j]">
+            </PersistentString>
+            <PersistentString
+               value = "imgH">
+            </PersistentString>
+            <PersistentString
+               value = "FIMG[i][j-1]">
+            </PersistentString>
+            <PersistentString
+               value = "(*H)[1][15]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "image[25][30]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ReadImage(char*, int***, int&amp;, int&amp;, int&amp;):ReadImage.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(*fimage)[i][j-1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
