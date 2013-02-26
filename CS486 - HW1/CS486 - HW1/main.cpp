@@ -12,6 +12,7 @@
 #include "Gauss2D.h"
 #include "Image.h"
 
+
 using namespace std;
 
 int main()

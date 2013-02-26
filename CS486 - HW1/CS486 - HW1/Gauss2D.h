@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include "Gauss_masks.c"
+//#include "opencv2/opencv.hpp"
 
 class Gauss2D {
     int imgH, imgW, sigma, mask, depth;
